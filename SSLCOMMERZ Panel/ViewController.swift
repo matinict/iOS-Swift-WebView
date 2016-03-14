@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let myURL = NSURL(string: "https://merchant.sslcommerz.com");
+        let myURL = NSURL(string: "https://sslcommerz.com");
         let myURLRequest:NSURLRequest = NSURLRequest(URL: myURL!);
         sslcommerzPanelWebView.loadRequest(myURLRequest);
 
